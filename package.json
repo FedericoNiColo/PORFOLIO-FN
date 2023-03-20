@@ -8,9 +8,22 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "dependencies": {
+    "@headlessui/react": "^1.7.13",
+    "@prisma/client": "^4.11.0",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.3.4",
     "next": "13.2.4",
+    "postcss": "^8.4.21",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.7",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "prisma": "^4.11.0"
   }
 }
