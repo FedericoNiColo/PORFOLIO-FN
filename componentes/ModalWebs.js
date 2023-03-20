@@ -68,9 +68,9 @@ const ModalWebs = () => {
                                         <p>{descripcion}</p>
                                     </div>
 
-                                    <div className="mt-6 flex flex-row justify-center gap-10 p-2">
+                                    <div className="mt-6 flex flex-row justify-center gap-2 p-2">
                                         <div
-                                            className="flex items-center g-3 rounded-md border border-transparent px-4 py-4 text-2xl md:text-3xl font-medium text-gray-900 hover:border-b-emerald-700 hover:border-b-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                                            className="flex   items-center g-3 rounded-md border border-transparent px-4 py-4 text-2xl md:text-3xl font-medium text-gray-900 hover:border-b-emerald-700 hover:border-b-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                                         >
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-right" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#B8C674" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />

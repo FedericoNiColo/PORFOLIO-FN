@@ -3,7 +3,7 @@ const Footer = () => {
     return (
         <footer id="contacto" className="pie animate__animated animate__zoomIn">
             <div>
-                <div className='flex'>
+                <div className='flexFooter'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="32"
                         height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -13,7 +13,7 @@ const Footer = () => {
                     </svg> Julian alvarez 2580, CABA. Buenos Aires, Argentina.
                 </div>
 
-                <div className='flex'>
+                <div className='flexFooter'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="32"
                         height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -24,7 +24,7 @@ const Footer = () => {
                     </svg> 2345499481
                 </div>
 
-                <div className='flex'>
+                <div className='flexFooter'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="32" height="32"
                         viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <div className='flex'>
+                <div className='flexFooter'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="32"
                         height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -50,7 +50,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/federico-ni-col%C3%B3-61b1011b8/" target="_blank">LinkedIn</a>
                 </div>
 
-                <div className='flex'>
+                <div className='flexFooter'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-behance" width="32"
                         height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -63,7 +63,7 @@ const Footer = () => {
                     <a href="https://www.behance.net/gallery/132177317/Portfolio-Personal" target="_blank">Behance</a>
                 </div>
 
-                <div className='flex'>
+                <div className='flexFooter'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="32"
                         height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">

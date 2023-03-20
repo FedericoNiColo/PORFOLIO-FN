@@ -769,7 +769,7 @@ html {
   border-top: 4rem solid var(--verde);
 }
 
-.flex {
+.flexFooter {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
