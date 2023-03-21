@@ -68,7 +68,7 @@ html {
   align-items: center;
   padding: 2rem;
   gap: 2rem;
-  border-bottom: 1rem solid var(--verde);
+  border-bottom: 0.4rem solid var(--verde);
 }
 
 .navegacion a {
@@ -107,7 +107,7 @@ html {
   line-height: 7.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  text-shadow: 7px 5px 1px var(--blanco);
+  text-shadow: 5px 1.5px 0.5px var(--blanco);
 }
 
 .profesiones{
@@ -136,6 +136,7 @@ html {
 
   .navegacion {
       gap: 10rem;
+      border-bottom: 1rem solid var(--verde);
   }
 
   .contenido-principal {
@@ -153,6 +154,7 @@ html {
   .saludo h1 {
       font-size: 8rem;
       line-height: 9rem;
+      text-shadow: 7px 5px 1px var(--blanco);
   }
 
   .contener-portada {
@@ -563,7 +565,6 @@ html {
   font-size: 2rem;
   color: var(--gris-claro);
 }
-
 
 .imagenes {
   margin-top: 2rem;
