@@ -5,7 +5,7 @@ import useProyectosProvider from '@/hooks/useProyectoProvider'
 const ProyectoWeb = ({ proyecto }) => {
 
     const { obtenerProyectoWeb, modificarModalWeb } = useProyectosProvider()
-    const { id, nombre, imagen } = proyecto
+    const { nombre, imagen } = proyecto
 
     return (
         <div className="tarjeta sombra animate__animated animate__zoomIn">
@@ -17,7 +17,7 @@ const ProyectoWeb = ({ proyecto }) => {
                 type='button'
                 className='boton-detalles'
                 onClick={() => {
-                    obtenerProyectoWeb(id)
+                    obtenerProyectoWeb(nombre)
                     modificarModalWeb()
                 }}
             >

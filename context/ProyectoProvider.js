@@ -1,14 +1,16 @@
 import React from "react";
 import { useState, useEffect, createContext } from "react";
 import axios from "axios";
+import { diseñoindustrial } from "@/ProyectosIndustrial";
+import { webs } from "@/ProyectosWeb";
 
 
 const ProyectosContext = createContext()
 
 const ProyectosProvider = ({ children }) => {
 
-    const [proyectosWebs, setProyectosWebs] = useState([])
-    const [proyectosIndustrial, setProyectosIndustrial] = useState([])
+    const [proyectosWebs, setProyectosWebs] = useState(webs)
+    const [proyectosIndustrial, setProyectosIndustrial] = useState(diseñoindustrial)
     const [proyectosRenders, setProyectosRenders] = useState([])
     const [cargando, setCargando] = useState(false)
     const [modalWeb, setModalWeb] = useState(false)
@@ -17,41 +19,48 @@ const ProyectosProvider = ({ children }) => {
     const [proyectoIndustrial, setProyectoIndustrial] = useState({})
 
     useEffect(() => {
-        try {
 
-            setCargando(true)
-            const llamadosAPI = async () => {
+        setCargando(true)
 
-                await obtenerProyectosWebs()
-                await obtenerProyectosIndustrial()
-                await obtenerProyectosRenders()
+        setTimeout(() => {
+            setCargando(false)
 
-                setCargando(false)
-                return;
-            }
-
-            llamadosAPI()
-
-        } catch (error) {
-            console.log(error);
-        }
+        }, 4000);
+        /*  try {
+ 
+             setCargando(true)
+             const llamadosAPI = async () => {
+ 
+                 await obtenerProyectosWebs()
+                 await obtenerProyectosIndustrial()
+                 await obtenerProyectosRenders()
+ 
+                 setCargando(false)
+                 return;
+             }
+ 
+             llamadosAPI()
+ 
+         } catch (error) {
+             console.log(error);
+         } */
     }, [])
 
-    const obtenerProyectosWebs = async () => {
-        const { data } = await axios('/api/webs')
-        setProyectosWebs(data);
-    }
-
-    const obtenerProyectosIndustrial = async () => {
-        const { data } = await axios('/api/industrial')
-        setProyectosIndustrial(data);
-    }
-
-    const obtenerProyectosRenders = async () => {
-        const { data } = await axios('/api/renders')
-        setProyectosRenders(data);
-    }
-
+    /*    const obtenerProyectosWebs = async () => {
+           const { data } = await axios('/api/webs')
+           setProyectosWebs(data);
+       }
+   
+       const obtenerProyectosIndustrial = async () => {
+           const { data } = await axios('/api/industrial')
+           setProyectosIndustrial(data);
+       }
+   
+       const obtenerProyectosRenders = async () => {
+           const { data } = await axios('/api/renders')
+           setProyectosRenders(data);
+       }
+    */
     const modificarModalWeb = () => {
         setModalWeb(!modalWeb)
     }
@@ -60,9 +69,9 @@ const ProyectosProvider = ({ children }) => {
         setModalIndustrial(!modalIndustrial)
     }
 
-    const obtenerProyectoWeb = id => {
+    const obtenerProyectoWeb = nombre => {
         const proy = proyectosWebs.find(proyect => (
-            proyect.id === id
+            proyect.nombre === nombre
         ))
         setProyectoWeb(proy);
     }

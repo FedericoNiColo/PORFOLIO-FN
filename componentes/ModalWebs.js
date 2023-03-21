@@ -7,7 +7,7 @@ const ModalWebs = () => {
 
     const { modificarModalWeb, modalWeb, proyectoWeb } = useProyectosProvider()
 
-    const { id, nombre, descripcion, github, web } = proyectoWeb
+    const { nombre, descripcion, github, web } = proyectoWeb
 
     return (
         <>
