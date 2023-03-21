@@ -3,6 +3,7 @@ import { useState, useEffect, createContext } from "react";
 import axios from "axios";
 import { diseñoindustrial } from "@/ProyectosIndustrial";
 import { webs } from "@/ProyectosWeb";
+import { renders } from "@/Renders";
 
 
 const ProyectosContext = createContext()
@@ -11,7 +12,7 @@ const ProyectosProvider = ({ children }) => {
 
     const [proyectosWebs, setProyectosWebs] = useState(webs)
     const [proyectosIndustrial, setProyectosIndustrial] = useState(diseñoindustrial)
-    const [proyectosRenders, setProyectosRenders] = useState([])
+    const [proyectosRenders, setProyectosRenders] = useState(renders)
     const [cargando, setCargando] = useState(false)
     const [modalWeb, setModalWeb] = useState(false)
     const [modalIndustrial, setModalIndustrial] = useState(false)
