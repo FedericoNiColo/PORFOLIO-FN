@@ -70,6 +70,13 @@ const webs = [
         web: "quiosco-production-1e26.up.railway.app/",
         github: "github.com/FedericoNiColo/QUIOSCO",
     },
+    {
+        nombre: "PELÍCULAS API",
+        imagen: "Peliculas",
+        descripcion: "Proyecto realizado con Next Js, y estilos con Tailwind Css. Tambien se utilizan las dependencias Headless, React Swipeable List, React Circular Progressbar y React Youtube.",
+        web: "peliculsapi.netlify.app/",
+        github: "github.com/FedericoNiColo/PELICULAS-API",
+    },
 
 ]
 
