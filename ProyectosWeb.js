@@ -67,7 +67,7 @@ const webs = [
         nombre: "FRESCH COFEE",
         imagen: "Coffe",
         descripcion: "Proyecto fullStack utilizando Next Js, Tailwind Css, Prisma para la base de datos y para el comportamiento en tiempo real SWR. Tambien se utilizan las dependencias React Modal y React Toastify.",
-        web: "quiosco-production-1e26.up.railway.app/",
+        web: "quiosco-production-de1d.up.railway.app/",
         github: "github.com/FedericoNiColo/QUIOSCO",
     },
     {

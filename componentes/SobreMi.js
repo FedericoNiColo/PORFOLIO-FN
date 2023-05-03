@@ -58,6 +58,7 @@ const SobreMi = () => {
                             <img src={`/assets/img/${habilidad.imagen}.png`} alt={`icono ${habilidad.imagen}`} className="icono-habilidades" key={Math.random()} />
                         ))}
                     </div>
+
                 </div>
             </div>
         </section>
