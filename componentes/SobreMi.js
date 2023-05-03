@@ -16,7 +16,7 @@ const SobreMi = () => {
 
                     <div className="parrafo-sobremi animate__flipInX">
                         <h2 >sobre mí</h2>
-                        <p>Tengo 23 años. A los 18 comencé a estudiar Diseño Industrial en la UBA y descubrí mi
+                        <p>Tengo 24 años. A los 18 comencé a estudiar Diseño Industrial en la UBA y descubrí mi
                             pasión por la tecnología. Despues de varios años de carrera y haber realizado proyectos con Arduino
                             comencé a estudiar paralelamente programación web con el obejtivo de seguir profundizando mis conocimientos en tecnología.
                             <br />
