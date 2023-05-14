@@ -80,7 +80,7 @@ const webs = [
     {
         nombre: "Ecommerce MiSto",
         imagen: "MiSto",
-        descripcion: "Proyecto EN DESARROLLO con Next Js,TypeScript, Chakra UI. El diseño obtenido de Figma Community y los productos de la API Fake Store.",
+        descripcion: "Proyecto aún en desarrollo con Next Js,TypeScript, Chakra UI. El diseño obtenido de Figma Community y los productos de la API Fake Store.",
         web: "spiffy-sorbet-46910f.netlify.app/",
         github: "github.com/FedericoNiColo/ECOMMERCE-MISTO",
     },
