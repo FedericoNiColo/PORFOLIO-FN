@@ -16,16 +16,16 @@ const SobreMi = () => {
 
                     <div className="parrafo-sobremi animate__flipInX">
                         <h2 >sobre mí</h2>
-                        <p>Tengo 24 años. A los 18 comencé a estudiar Diseño Industrial en la UBA y descubrí mi
-                            pasión por la tecnología. Despues de varios años de carrera y haber realizado proyectos con Arduino
-                            comencé a estudiar paralelamente programación web con el obejtivo de seguir profundizando mis conocimientos en tecnología.
+                        <p>Soy un apacionado por la tecnología. Comencé a estudiar Diseño Industrial en la UBA.
+                            Despues de varios años de carrera y haber realizado proyectos con Arduino
+                            comencé a estudiar paralelamente programación web.
                             <br />
                             Actualmente soy Desarrollador Frontend React y estoy
                             a 5 materias de terminar la carrera Diseño Industrial.
                             <br />
-                            Soy una persona muy responsable, constante, curiosa y
-                            con ganas de seguir aprendiendo día a día.
-                            Siempre voy por nuevos desafíos y estoy dispuesto a aprender nuevas habilidades para adaptarme
+                            Tengo experiencia laboral en un estudio de Arquitectura. Esta experiencia demuestra mi proactividad,
+                            mi adaptabilidad a nuevos retos y las ganas de crecer profesionalmente. 
+                            Soy una persona muy responsable, constante, curiosa y estoy dispuesto a aprender nuevas habilidades para adaptarme
                             a la tarea/trabajo que sea necesario para el bien del grupo y del desarrollo personal.
                         </p>
 

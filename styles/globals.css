@@ -124,8 +124,8 @@ html {
 }
 
 .contener-portada img {
-  filter: drop-shadow(5px 2px 5px var(--gris));
-  width: 30rem;
+  filter: drop-shadow(3px 2px 4px var(--gris));
+  width: 31rem;
   margin: 0 auto;
   position: relative;
   bottom: 4rem;
@@ -192,6 +192,7 @@ html {
 
   .contener-portada img {
       bottom: 0rem;
+      filter: drop-shadow(5px 2px 5px var(--gris));
   }
 }
 
@@ -475,6 +476,7 @@ html {
 .webs {
   padding: 1rem;
   margin-bottom: 2rem;
+  
 }
 
 .trabajos .webs h2 {
