@@ -50,7 +50,7 @@ html {
 
 /*Inicio*/
 .principal {
-  height: 95vh;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
   /*    background-image: url(/public/multimedia/FONDO.png);
@@ -143,8 +143,6 @@ html {
   gap: 4rem;
 }
 
-.flexContacto {}
-
 .contenedor-icono{
   height: 5rem;
   width: 5rem;
@@ -161,6 +159,10 @@ html {
 
 
 @media (min-width: 768px) {
+
+  .principal{
+    height: 95vh;
+  }
 
   .navegacion {
     gap: 10rem;
