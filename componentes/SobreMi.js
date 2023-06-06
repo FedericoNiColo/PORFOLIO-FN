@@ -18,9 +18,9 @@ const SobreMi = () => {
                         <h2 >sobre mí</h2>
                         <p>Soy un apacionado por la tecnología. Comencé a estudiar Diseño Industrial en la UBA.
                             Despues de varios años de carrera y haber realizado proyectos con Arduino
-                            comencé a estudiar paralelamente programación web.
+                            comencé a estudiar paralelamente desarrollo web.
                             <br />
-                            Actualmente soy Desarrollador Frontend React y estoy
+                            Actualmente soy Desarrollador Frontend y estoy
                             a 5 materias de terminar la carrera Diseño Industrial.
                             <br />
                             Tengo experiencia laboral en un estudio de Arquitectura. Esta experiencia demuestra mi proactividad,

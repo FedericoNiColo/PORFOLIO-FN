@@ -24,8 +24,7 @@ const Trabajos = () => {
         <section id="trabajos" className="trabajos animate__animated animate__zoomIn">
             <article className="webs subtitulo">
                 {modalWeb && <ModalWebs />}
-                <h2 className="blanco">proyectos realizados con diferentes cursos</h2>
-                <h3 className="blanco sub">webs</h3>
+                <h3 className="blanco sub">Desarrollo Web</h3>
 
                 <div className="tarjetas-webs">
                     {proyectosWebs.length > 0 &&
