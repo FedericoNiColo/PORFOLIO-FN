@@ -99,16 +99,16 @@ html {
 
 .saludo h2 {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--verde);
 }
 
 .saludo h1 {
-  font-size: 7.8rem;
+  font-size: 8.5rem;
   text-transform: uppercase;
   color: var(--gris-oscuro);
-  line-height: 7.5rem;
+  line-height: 8.5rem;
   font-weight: 700;
   margin-bottom: 3rem;
   text-shadow: 5px 1.5px 0.5px var(--blanco);
@@ -130,6 +130,7 @@ html {
   margin: 0.5rem;
   border-bottom: 0.2rem solid var(--verde);
   color: var(--gris);
+  font-size: 1.9rem;
 }
 
 .contener-portada img {
@@ -295,9 +296,6 @@ html {
   gap: 2rem;
 }
 
-.parrafo-sobremi {
-  order: -1;
-}
 
 .parrafo-sobremi h2 {
   font-weight: 500;
@@ -313,7 +311,7 @@ html {
 }
 
 .foto-personal {
-  width: 20rem;
+  width: 25rem;
 }
 
 .cv {
