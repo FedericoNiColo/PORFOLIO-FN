@@ -22,6 +22,7 @@ const Trabajos = () => {
 
     return (
         <section id="trabajos" className="trabajos animate__animated animate__zoomIn">
+
             <article className="webs subtitulo">
                 {modalWeb && <ModalWebs />}
                 <h3 className="blanco sub">Desarrollo Web</h3>

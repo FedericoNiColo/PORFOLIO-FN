@@ -15,6 +15,20 @@ const Header = () => {
                 </header>
 
                 <div className='contenido-principal'>
+                    <div class="area" >
+                        <ul class="circles">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div >
                     <div className="saludo animate__animated animate__backInLeft">
                         <h2 className='text-center'>Hola, mi nombre es</h2>
                         <h1 className='text-center'>Federico Ni Coló
@@ -26,6 +40,7 @@ const Header = () => {
                     </div>
 
                 </div>
+
 
                 <div className='contacto'>
 

@@ -27,41 +27,10 @@ const ProyectosProvider = ({ children }) => {
             setCargando(false)
 
         }, 4000);
-        /*  try {
- 
-             setCargando(true)
-             const llamadosAPI = async () => {
- 
-                 await obtenerProyectosWebs()
-                 await obtenerProyectosIndustrial()
-                 await obtenerProyectosRenders()
- 
-                 setCargando(false)
-                 return;
-             }
- 
-             llamadosAPI()
- 
-         } catch (error) {
-             console.log(error);
-         } */
+
     }, [])
 
-    /*    const obtenerProyectosWebs = async () => {
-           const { data } = await axios('/api/webs')
-           setProyectosWebs(data);
-       }
-   
-       const obtenerProyectosIndustrial = async () => {
-           const { data } = await axios('/api/industrial')
-           setProyectosIndustrial(data);
-       }
-   
-       const obtenerProyectosRenders = async () => {
-           const { data } = await axios('/api/renders')
-           setProyectosRenders(data);
-       }
-    */
+
     const modificarModalWeb = () => {
         setModalWeb(!modalWeb)
     }
