@@ -3,7 +3,7 @@
   --blanco: #fff;
   --gris-claro: #eeeeee;
   --gris: #201E2A;
-  --gris-oscuro: #473D46;
+  --gris-oscuro: #383138;
   --negro: #191919;
   --azul-oscuro: #062937;
 }
@@ -85,8 +85,14 @@ html {
 }
 
 .contenido-principal {
-  width: 95%;
+  width: 100%;
+  height: 90%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .saludo {
@@ -96,23 +102,29 @@ html {
 }
 
 .saludo h2 {
+  margin-bottom: 1rem;
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--verde);
 }
 
 .saludo h1 {
-  font-size: 6.5rem;
+  font-size: 7.8rem;
   text-transform: uppercase;
   color: var(--gris-oscuro);
   line-height: 7.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   text-shadow: 5px 1.5px 0.5px var(--blanco);
 }
 
 .profesiones {
   width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .profesiones p {
@@ -143,7 +155,7 @@ html {
   gap: 4rem;
 }
 
-.contenedor-icono{
+.contenedor-icono {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
@@ -160,20 +172,13 @@ html {
 
 @media (min-width: 768px) {
 
-  .principal{
+  .principal {
     height: 95vh;
   }
 
   .navegacion {
     gap: 10rem;
     border-bottom: 1rem solid var(--verde);
-  }
-
-  .contenido-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
   }
 
   .saludo {
@@ -203,13 +208,7 @@ html {
 
 
 @media (min-width: 1024px) {
-  .contenido-principal {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin-top: 5%;
-
-  }
+  .contenido-principal {}
 
   .saludo {
     margin-top: 0;
@@ -217,28 +216,32 @@ html {
   }
 
   .saludo h1 {
-    font-size: 10rem;
+   
     line-height: 10rem;
     margin-bottom: 2rem;
   }
 
   .saludo h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .contener-portada img {
     bottom: 0rem;
     filter: drop-shadow(5px 2px 5px var(--gris));
   }
+
+  .profesiones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1440px) {
 
-  .contenido-principal {
-    flex-direction: row;
-    margin-top: 10%;
-    width: 80%;
-  }
+  .contenido-principal {}
 
   .contener-portada img {
     width: 45rem;
@@ -246,7 +249,7 @@ html {
   }
 
   .profesiones {
-    width: 70%;
+    width: 100%;
   }
 
 
@@ -256,7 +259,7 @@ html {
 @media (min-width: 2240px) {
 
   .saludo h1 {
-    font-size: 17rem;
+    font-size: 12rem;
     line-height: 17rem;
     margin-bottom: 3rem;
   }
@@ -265,19 +268,14 @@ html {
     font-size: 5rem;
   }
 
-  .contenido-principal {
-    flex-direction: row;
-    margin-top: 10%;
-  }
+  .contenido-principal {}
 
 
   .contener-portada img {
     width: 55rem;
   }
 
-  .profesiones {
-    width: 50%;
-  }
+
 }
 
 /*Sobre mi*/

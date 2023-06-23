@@ -16,18 +16,13 @@ const Header = () => {
 
                 <div className='contenido-principal'>
                     <div className="saludo animate__animated animate__backInLeft">
-                        <h2>Hola, mi nombre es</h2>
-                        <h1>Federico
-                            <br /> Ni Coló
+                        <h2 className='text-center'>Hola, mi nombre es</h2>
+                        <h1 className='text-center'>Federico Ni Coló
                         </h1>
                         <div className='profesiones'>
                             <p>Desarrollador Front-End React </p>
                             <p>Estudiante avanzado de Diseño Industrial</p>
                         </div>
-                    </div>
-
-                    <div className='contener-portada animate__animated animate__backInRight'>
-                        <img src="/assets/img/ARTISTICA.png" alt="imagen portada" />
                     </div>
 
                 </div>
