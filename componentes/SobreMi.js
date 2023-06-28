@@ -18,15 +18,13 @@ const SobreMi = () => {
                         <h2 >sobre mí</h2>
                         <p>Soy un apacionado por la tecnología. Comencé a estudiar Diseño Industrial en la UBA.
                             Despues de varios años de carrera y haber realizado proyectos con Arduino
-                            comencé a estudiar paralelamente desarrollo web.
+                            comencé a estudiar paralelamente Desarrollo Web.
                             <br />
-                            Actualmente soy Desarrollador Frontend y estoy
-                            a 5 materias de terminar la carrera Diseño Industrial.
+                            Actualmente soy Desarrollador Frontend especializado en React y Diseñador Industrial.
                             <br />
-                            Tengo experiencia laboral en un estudio de Arquitectura. Esta experiencia demuestra mi proactividad,
-                            mi adaptabilidad a nuevos retos y las ganas de crecer profesionalmente. 
-                            Soy una persona muy responsable, constante, curiosa y estoy dispuesto a aprender nuevas habilidades para adaptarme
-                            a la tarea/trabajo que sea necesario para el bien del grupo y del desarrollo personal.
+                            Soy un profesional altamente motivado, orientado a resultados y siempre en búsqueda de nuevos desafíos.
+                            Mi capacidad para aprender rápidamente y adaptarme a entornos cambiantes me ha permitido obtener excelentes
+                            resultados en proyectos anteriores.
                         </p>
 
                         <div className='cv'>
