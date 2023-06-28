@@ -16,11 +16,10 @@ const SobreMi = () => {
 
                     <div className="parrafo-sobremi animate__flipInX">
                         <h2 >sobre mí</h2>
-                        <p>Soy un apacionado por la tecnología. Comencé a estudiar Diseño Industrial en la UBA.
-                            Despues de varios años de carrera y haber realizado proyectos con Arduino
-                            comencé a estudiar paralelamente Desarrollo Web.
+                        <p>Soy un apacionado por la tecnología.
                             <br />
-                            Actualmente soy Desarrollador Frontend especializado en React y Diseñador Industrial.
+                            LLevo varios años preparándome en esta área.Actualmente soy Desarrollador Frontend especializado en React y cuento con sólidos conocimientos y herramientas
+                            de diseño ya que tambien soy Diseñador Industrial recibido en la UBA.
                             <br />
                             Soy un profesional altamente motivado, orientado a resultados y siempre en búsqueda de nuevos desafíos.
                             Mi capacidad para aprender rápidamente y adaptarme a entornos cambiantes me ha permitido obtener excelentes
@@ -34,7 +33,7 @@ const SobreMi = () => {
                                 <option
                                     value={'/assets/img/CV-Federico Ni Coló.pdf'}
                                 >Desarrollador Frontend</option>
-                               
+
                             </select>
 
                             {cv.length > 0 && <a href={`${cv}`} className="vermas-cv" target="_blank">Ver</a>}

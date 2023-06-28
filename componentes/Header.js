@@ -35,7 +35,7 @@ const Header = () => {
                         </h1>
                         <div className='profesiones'>
                             <p>Desarrollador Front-End React </p>
-                            <p>Estudiante avanzado de Diseño Industrial</p>
+                            <p>Diseñador Industrial</p>
                         </div>
                     </div>
 
