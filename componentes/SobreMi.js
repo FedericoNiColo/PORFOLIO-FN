@@ -24,7 +24,7 @@ const SobreMi = () => {
                             <br />
                             Soy un profesional altamente motivado, orientado a resultados y siempre en búsqueda de nuevos desafíos.
                             Mi capacidad para aprender rápidamente y adaptarme a entornos cambiantes me ha permitido obtener excelentes
-                            resultados en proyectos anteriores.
+                            resultados.
                         </p>
 
                         <div className='cv'>
@@ -34,10 +34,7 @@ const SobreMi = () => {
                                 <option
                                     value={'/assets/img/CV-Federico Ni Coló.pdf'}
                                 >Desarrollador Frontend</option>
-                                <option
-                                    value={'/assets/img/Federico Ni Coló.pdf'}
-                                >Diseñador Industrial</option>
-
+                               
                             </select>
 
                             {cv.length > 0 && <a href={`${cv}`} className="vermas-cv" target="_blank">Ver</a>}
