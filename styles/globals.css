@@ -304,7 +304,7 @@ html {
   font-weight: 400;
   margin-bottom: 1rem;
   width: 100%;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 .foto-personal {
@@ -748,9 +748,6 @@ html {
     font-size: 1.5rem;
   }
 
-  .boton-detalles {
-    padding: 1rem;
-  }
 }
 
 @media (min-width: 1024px) {
