@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   --verde: #B8C674;
   --blanco: #fff;
@@ -240,7 +241,7 @@ html {
 
 @media (min-width: 1440px) {
 
-  
+
   .contener-portada img {
     width: 45rem;
 
@@ -307,7 +308,7 @@ html {
 }
 
 .foto-personal {
-  width: 25rem;
+  width: 100%;
 }
 
 .cv {
@@ -549,7 +550,7 @@ html {
     padding: 1rem;
   }
 
-/*   .tarjetas-webs {
+  /*   .tarjetas-webs {
     width: 100%;
     gap: 1rem;
   } */
@@ -754,7 +755,7 @@ html {
 
 @media (min-width: 1024px) {
 
-/*   .tarjeta {
+  /*   .tarjeta {
     width: 23%;
   } */
 
@@ -788,7 +789,7 @@ html {
 }
 
 @media (min-width: 2250px) {
- /*  .tarjeta {
+  /*  .tarjeta {
     width: 23%;
   } */
 
