@@ -10,7 +10,9 @@ const ProyectoIndustrial = ({ proyecto }) => {
     return (
 
 
-        <img src={`/assets/img/${portada}.png`} className="bg-white object-cover h-full rounded-md animate__animated animate__zoomIn" />
+
+        <img src={`/assets/img/${portada}.png`} className="mr-2 bg-white object-cover h-full rounded-md animate__animated animate__zoomIn" />
+
 
 
 
