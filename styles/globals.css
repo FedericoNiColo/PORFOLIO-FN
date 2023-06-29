@@ -499,8 +499,8 @@ html {
 /*WEBS*/
 .trabajos {
   background-color: var(--gris);
-  padding-top: 5rem;
-  padding-bottom: 15rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   border-top: 1rem solid var(--verde);
 }
 
@@ -526,13 +526,17 @@ html {
   color: var(--blanco);
 }
 
-.tarjetas-webs {
+.center {
+  text-align: center;
+}
+
+/* .tarjetas-webs {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: flex-start;
   align-items: center;
-}
+} */
 
 
 @media (min-width: 768px) {
@@ -544,15 +548,15 @@ html {
   }
 
   .subtitulo {
-    margin-top: 5rem;
+    margin-top: 6rem;
     border-left: 0.5rem solid var(--verde);
     padding: 1rem;
   }
 
-  .tarjetas-webs {
+/*   .tarjetas-webs {
     width: 100%;
     gap: 1rem;
-  }
+  } */
 
   .sub {
     font-size: 4.5rem;
@@ -573,7 +577,7 @@ html {
   .webs {
     margin: 0 auto;
     margin-bottom: 3rem;
-    max-width: 70%;
+    max-width: 75%;
   }
 }
 
@@ -677,21 +681,20 @@ html {
 
 .tarjeta {
   background-color: var(--gris-claro);
-  width: 49%;
   border-radius: 0.5rem;
 }
 
 .nombre-tarjeta {
   text-transform: uppercase;
   text-align: start;
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding: 1rem;
   font-weight: 400;
 }
 
 .fondo-tarjeta {
   width: 100%;
-  height: 10rem;
+  height: 20rem;
   border-top: 0.3rem solid var(--verde);
   object-fit: cover;
 }
@@ -729,9 +732,9 @@ html {
 
 @media (min-width: 768px) {
 
-  .tarjeta {
+  /* .tarjeta {
     width: 30%;
-  }
+  } */
 
   .fondo-tarjeta {
     height: 10rem;
@@ -756,9 +759,9 @@ html {
 
 @media (min-width: 1024px) {
 
-  .tarjeta {
+/*   .tarjeta {
     width: 23%;
-  }
+  } */
 
   .fondo-tarjeta {
     height: 10rem;
@@ -790,9 +793,9 @@ html {
 }
 
 @media (min-width: 2250px) {
-  .tarjeta {
+ /*  .tarjeta {
     width: 23%;
-  }
+  } */
 
   .fondo-tarjeta {
     height: 18rem;
@@ -801,7 +804,7 @@ html {
 
 /*FOOTER*/
 .pie {
-  background-color: var(--gris-claro);
+  /* background-color: var(--blanco); */
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -925,7 +928,7 @@ a {
 
 .area {
   background: var(--gris-claro);
-  
+
   width: 100%;
   height: 100vh;
 
@@ -950,7 +953,7 @@ a {
   background: var(--verde);
   animation: animate 25s linear infinite;
   bottom: -150px;
-  
+
 }
 
 .circles li:nth-child(1) {
@@ -1024,7 +1027,7 @@ a {
   width: 15px;
   height: 15px;
   animation-delay: 2s;
-  
+
   animation-duration: 35s;
 }
 

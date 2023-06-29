@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <footer id="contacto" className="pie animate__animated animate__zoomIn">
+        <footer id="contacto" className="pie bg-white animate__animated animate__zoomIn">
             <div>
                 <div className='flexFooter'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="32"

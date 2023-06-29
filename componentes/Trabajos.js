@@ -21,55 +21,59 @@ const Trabajos = () => {
     })
 
     return (
-        <section id="trabajos" className="trabajos animate__animated animate__zoomIn">
+        <>
+            <section id="trabajos" className="mt-12 trabajos animate__animated animate__zoomIn">
 
-            <article className="webs subtitulo">
-                {modalWeb && <ModalWebs />}
-                <h3 className="blanco sub">Desarrollo Web</h3>
+                <article className=" webs subtitulo">
+                    {modalWeb && <ModalWebs />}
+                    <h3 className="blanco sub">Desarrollo Web</h3>
 
-                <div className="tarjetas-webs">
-                    {proyectosWebs.length > 0 &&
-                        proyectosWebs.map(proyecto => (
-                            <ProyectoWeb
-                                key={proyecto.id}
-                                proyecto={proyecto}
-                            />
-                        ))}
-                </div>
-            </article>
-
-
-            <article className="webs subtitulo">
-                {modalIndustrial && <ModalIndustrial />}
-                <h2 className="blanco">proyectos realizados en la universidad</h2>
-                <h3 className="blanco sub">Diseño Industrial</h3>
-
-                <div className="tarjetas-webs">
-                    {proyectosIndustrial.length > 0 &&
-                        proyectosIndustrial.map(proyecto => (
-                            <ProyectoIndustrial
-                                key={proyecto.id}
-                                proyecto={proyecto}
-                            />
-                        ))}
-                </div>
-            </article>
+                    <div className="sm:grid sm:grid-cols-4 sm:gap-2 w-full">
+                        {proyectosWebs.length > 0 &&
+                            proyectosWebs.map(proyecto => (
+                                <ProyectoWeb
+                                    key={proyecto.id}
+                                    proyecto={proyecto}
+                                />
+                            ))}
+                    </div>
+                </article>
 
 
-            <article className="renders subtitulo">
-                <h2 className="blanco">proyectos realizados en estudio de arquitectura Armendariz-Zabaleta</h2>
-                <h3 className="blanco sub">renders</h3>
+            </section>
+            <article className="w-full  bg-gray2 pb-32 pt-20  ">
+                <div className=' xl:max-w-[75%] max-w-[95%] mx-auto'>
 
-                <div className="imagenes">
-                    {proyectosRenders.map(render => (
-                        <img src={`/assets/img/${render.imagen}.png`} alt="" key={`${render.imagen}`} className={`${render.clase} img sombra animate__animated animate__zoomIn`} />
-                    ))}
+                    <h3 className="sm:text-6xl text-5xl font-semibold mb-4 text-gray">Diseño industrial y renders</h3>
+
+                    <div className="sm:grid sm:grid-cols-6 sm:gap-2 flex overflow-x-auto">
+                        
+                        {proyectosIndustrial.length > 0 &&
+                            proyectosIndustrial.map(proyecto => (
+                                <ProyectoIndustrial
+                                    key={proyecto.id}
+                                    proyecto={proyecto}
+                                />
+                            ))}
+
+                    </div>
+                    <a href="https://www.behance.net/federiconicol1" className="vermas mt-10" target="_blank">ver más</a>
                 </div>
 
-                <a href="https://www.behance.net/gallery/132177317/Portfolio-Personal" className="vermas" target="_blank">ver más...</a>
 
+                {/* <article className="renders ">
+
+
+<div className="imagenes">
+{proyectosRenders.map(render => (
+    <img src={`/assets/img/${render.imagen}.png`} alt="" key={`${render.imagen}`} className={`${render.clase} img sombra animate__animated animate__zoomIn`} />
+    ))}
+    </div>
+    
+    
+</article>*/}
             </article>
-        </section>
+        </>
     )
 }
 
