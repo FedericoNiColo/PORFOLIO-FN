@@ -42,20 +42,20 @@ const Trabajos = () => {
 
             </section>
             <article className="w-full  bg-gray2 py-36  ">
-                <div className=' xl:max-w-[75%] max-w-[95%] mx-auto'>
+                <div className='border-l-4 border-secundary xl:max-w-[75%] max-w-[95%] mx-auto'>
 
-                    <h3 className="sm:text-6xl text-5xl font-semibold mb-4 text-gray">Diseño industrial y renders</h3>
+                    <h3 className="sm:text-6xl text-5xl font-semibold mb-4 ml-6 text-gray">Diseño industrial y renders</h3>
 
-                    <div className="sm:grid sm:grid-cols-6 sm:gap-2 flex overflow-x-visible">
-                        
-                            {proyectosIndustrial.length > 0 &&
-                                proyectosIndustrial.map(proyecto => (
-                                    <ProyectoIndustrial
-                                        key={proyecto.id}
-                                        proyecto={proyecto}
-                                    />
-                                ))}
-                      
+                    <div className="sm:grid justify-start sm:grid-cols-6 sm:gap-2 flex overflow-x-visible">
+
+                        {proyectosIndustrial.length > 0 &&
+                            proyectosIndustrial.map(proyecto => (
+                                <ProyectoIndustrial
+                                    key={proyecto.id}
+                                    proyecto={proyecto}
+                                />
+                            ))}
+
                     </div>
                     <a href="https://www.behance.net/federiconicol1" className="vermas mt-4" target="_blank">ver más</a>
                 </div>
