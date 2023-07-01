@@ -36,6 +36,13 @@ const webs = [
         github: "github.com/FedericoNiColo/CONTROL-GASTOS",
     },
     {
+        nombre: "Buscador de Clima",
+        imagen: "Clima",
+        descripcion: "Está realizado con React en Vite, Context API y Tailwind Css.Este proyecto te da la posibilidad de escribir la ciudad y seleccionar una serie de paises para obtener el clima.El clima es obtenido de una API externa.",
+        web: "climapronostico.netlify.app/",
+        github: "github.com/FedericoNiColo/PRONOSTICO-DEL-TIEMPO",
+    },
+    {
         nombre: "Cotizador Criptomonedas",
         imagen: "Cotizador",
         descripcion: "Está realizado React en Vite. Este proyecto te da la posibilidad de elegir tu moneda y criptomoneda deseada y la cotiza en tiempo real gracias a la impletación de la API de Cryto Compare. Los estilos en este proyecto son con la librería Styled Components.",
@@ -50,11 +57,11 @@ const webs = [
         github: "github.com/FedericoNiColo/COTIZADOR-SEGUROS",
     },
     {
-        nombre: "Buscador de Clima",
-        imagen: "Clima",
-        descripcion: "Está realizado con React en Vite, Context API y Tailwind Css.Este proyecto te da la posibilidad de escribir la ciudad y seleccionar una serie de paises para obtener el clima.El clima es obtenido de una API externa.",
-        web: "climapronostico.netlify.app/",
-        github: "github.com/FedericoNiColo/PRONOSTICO-DEL-TIEMPO",
+        nombre: "Music Website",
+        imagen: "Musica",
+        descripcion: "Proyecto realizado con React, React Slick y Tailwind css",
+        web: "musicwebs.netlify.app/",
+        github: "github.com/FedericoNiColo/MUSICA-WEB",
     },
     {
         nombre: "Buscador de Bebidas",
@@ -84,13 +91,7 @@ const webs = [
         web: "spiffy-sorbet-46910f.netlify.app/",
         github: "github.com/FedericoNiColo/ECOMMERCE-MISTO",
     },
-    {
-        nombre: "Music Website",
-        imagen: "Musica",
-        descripcion: "Proyecto realizado con React, React Slick y Tailwind css",
-        web: "musicwebs.netlify.app/",
-        github: "github.com/FedericoNiColo/MUSICA-WEB",
-    },
+
 
 ]
 
