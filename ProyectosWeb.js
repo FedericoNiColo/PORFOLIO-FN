@@ -84,6 +84,13 @@ const webs = [
         web: "spiffy-sorbet-46910f.netlify.app/",
         github: "github.com/FedericoNiColo/ECOMMERCE-MISTO",
     },
+    {
+        nombre: "Music Website",
+        imagen: "Musica",
+        descripcion: "Proyecto realizado con React, React Slick y Tailwind css",
+        web: "musicwebs.netlify.app/",
+        github: "github.com/FedericoNiColo/MUSICA-WEB",
+    },
 
 ]
 
