@@ -8,6 +8,8 @@ const ProyectoWeb = ({ proyecto }) => {
     const { nombre, imagen } = proyecto
 
     return (
+
+
         <div className="tarjeta sombra animate__animated animate__zoomIn">
 
             <h4 className='nombre-tarjeta'>{nombre}</h4>

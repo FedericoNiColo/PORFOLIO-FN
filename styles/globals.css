@@ -496,7 +496,6 @@ html {
 /*WEBS*/
 .trabajos {
   background-color: var(--gris);
-  padding-top: 10rem;
   padding-bottom: 10rem;
   border-top: 1rem solid var(--verde);
 }
@@ -774,9 +773,7 @@ html {
     height: 15rem;
   }
 
-  .boton-detalles {
-    padding: 1.2rem;
-  }
+  
 
   .icono {
     height: 3rem;
@@ -821,7 +818,7 @@ a {
 }
 
 @media (min-width: 768px) {
-  .flex {
+  .flexFooter {
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;

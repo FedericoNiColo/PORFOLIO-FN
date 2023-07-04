@@ -4,10 +4,14 @@ import ProyectoWeb from './ProyectoWeb'
 import ProyectoIndustrial from './ProyectoIndustrial'
 import ModalIndustrial from './ModalIndustrial'
 import ModalWebs from './ModalWebs'
+import { useState } from 'react'
+import MasProyectos from './MasProyectos'
 
 const Trabajos = () => {
 
     const { proyectosWebs, modalWeb, proyectosRenders, proyectosIndustrial, modalIndustrial } = useProyectosProvider()
+    const [trabajos, setTrabajos] = useState('Desarrollo web')
+
 
     proyectosWebs.sort((a, b) => {
         if (a.id < b.id) return -1;
@@ -23,57 +27,81 @@ const Trabajos = () => {
     return (
         <>
             <section id="trabajos" className="mt-12 trabajos animate__animated animate__zoomIn">
+                <div className='w-full flex items-center justify-center p-0 mb-24 mt-10'>
+                    <button
+                        className={`${trabajos === 'Desarrollo web' ? 'text-secundary font-semibold bg-gray' : 'text-gray bg-gray2'} 
+                    text-5xl p-8 h-full  shadow-xl rounded-l-xl`}
+                        onClick={() => setTrabajos('Desarrollo web')}
+                    >
+                        Desarrollo web
+                    </button>
+                    <button
+                        className={`${trabajos === 'Diseño y Renders' ? 'text-secundary font-semibold bg-gray' : 'text-gray bg-gray2'} 
+                    text-5xl p-8 h-full shadow-xl rounded-r-xl`}
+                        onClick={() => setTrabajos('Diseño y Renders')}
+                    >
+                        Diseño y Renders
+                    </button>
+                </div>
 
                 <article className=" webs subtitulo xl:max-w-[75%] max-w-[95%] mx-auto">
                     {modalWeb && <ModalWebs />}
-                    <h3 className="blanco sub">Desarrollo Web</h3>
+                    {modalIndustrial && <ModalIndustrial />}
+                    <h3 className="blanco sub">{trabajos}</h3>
 
-                    <div className="sm:grid sm:grid-cols-3 2xl:grid-cols-4 sm:gap-2 w-full">
-                        {proyectosWebs.length > 0 &&
-                            proyectosWebs.map(proyecto => (
-                                <ProyectoWeb
-                                    key={proyecto.id}
-                                    proyecto={proyecto}
-                                />
-                            ))}
-                    </div>
+                    {trabajos === 'Desarrollo web' && (
+                        <div className="sm:grid sm:grid-cols-3 xl:grid-cols-4 sm:gap-2 w-full">
+                            {proyectosWebs.length > 0 &&
+                                proyectosWebs.map(proyecto => (
+                                    <ProyectoWeb
+                                        key={proyecto.id}
+                                        proyecto={proyecto}
+                                    />
+                                ))}
+                        </div>)
+                    }
+                    {trabajos === 'Diseño y Renders' && (
+                        <>
+                            <div className="sm:grid sm:grid-cols-3 2xl:grid-cols-4 sm:gap-4 w-full">
+                                {proyectosIndustrial.length > 0 &&
+                                    proyectosIndustrial.map(proyecto => (
+                                        <ProyectoIndustrial
+                                            key={proyecto.id}
+                                            proyecto={proyecto}
+                                        />
+                                    ))}
+                            </div>
+                        </>
+                    )}
                 </article>
 
 
             </section>
             <article className="w-full  bg-gray2  py-20 2xl:py-36  ">
+
                 <div className='sm:border-l-4 sm:border-secundary xl:max-w-[75%] max-w-[95%] mx-auto'>
 
-                    <h3 className="sm:text-6xl text-5xl font-semibold mb-4 sm:ml-6 text-gray">Diseño industrial y renders</h3>
+                    {/* <h3 className="sm:text-6xl text-5xl font-semibold sm:p-4 text-gray">otros</h3> */}
 
-                    <div className="sm:grid sm:grid-cols-6 sm:gap-2 flex  overflow-x-auto">
+                    <div className="sm:grid sm:grid-cols-6 sm:gap-2 flex sm:p-4 overflow-x-auto">
 
-                        {proyectosIndustrial.length > 0 &&
+                        {trabajos === 'Desarrollo web' && (
                             proyectosIndustrial.map(proyecto => (
-                                
-                                    <ProyectoIndustrial
-                                        key={proyecto.id}
-                                        proyecto={proyecto}
-                                    />
-                               
-                            ))}
-
+                                <MasProyectos
+                                    key={proyecto.id}
+                                    imagen={proyecto.portada}
+                                />
+                            )))}
+                        {trabajos === 'Diseño y Renders' && (
+                            proyectosWebs.map(proyecto => (
+                                <MasProyectos
+                                    key={proyecto.id}
+                                    imagen={proyecto.imagen}
+                                />
+                            )))}
                     </div>
-                    <a href="https://www.behance.net/federiconicol1" className="vermas mt-4 sm:ml-6" target="_blank">ver más</a>
                 </div>
 
-
-                {/* <article className="renders ">
-
-
-<div className="imagenes">
-{proyectosRenders.map(render => (
-    <img src={`/assets/img/${render.imagen}.png`} alt="" key={`${render.imagen}`} className={`${render.clase} img sombra animate__animated animate__zoomIn`} />
-    ))}
-    </div>
-    
-    
-</article>*/}
             </article>
         </>
     )

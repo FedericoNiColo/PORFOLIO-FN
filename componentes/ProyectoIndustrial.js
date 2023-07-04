@@ -5,16 +5,18 @@ const ProyectoIndustrial = ({ proyecto }) => {
 
     const { obtenerProyectoDeDiseño, modificarModalIndustrial } = useProyectosProvider()
 
-    const { nombre, portada } = proyecto
+    const { imagen, portada } = proyecto
 
     return (
 
-
-
-        <img src={`/assets/img/${portada}.png`} className="mr-2 bg-white object-cover h-full rounded-md animate__animated animate__zoomIn" />
-
-
-
+        <img
+            src={`/assets/img/${imagen}.png`}
+            className="hover:opacity-80 mr-2 cursor-pointer bg-white object-cover h-full rounded-md animate__animated animate__zoomIn"
+            onClick={() => {
+                obtenerProyectoDeDiseño(imagen)
+                modificarModalIndustrial()
+            }}
+        />
 
     )
 }

@@ -26,7 +26,7 @@ const ProyectosProvider = ({ children }) => {
         setTimeout(() => {
             setCargando(false)
 
-        }, 4000);
+        }, 100);
 
     }, [])
 
@@ -46,9 +46,9 @@ const ProyectosProvider = ({ children }) => {
         setProyectoWeb(proy);
     }
 
-    const obtenerProyectoDeDiseño = nombre => {
+    const obtenerProyectoDeDiseño = imagen => {
         const proy = proyectosIndustrial.find(proyect => (
-            proyect.nombre === nombre
+            proyect.imagen === imagen
         ))
         setProyectoIndustrial(proy);
     }
