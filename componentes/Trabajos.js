@@ -30,14 +30,14 @@ const Trabajos = () => {
                 <div className='w-full flex items-center justify-center p-0 mb-24 mt-10'>
                     <button
                         className={`${trabajos === 'Desarrollo web' ? 'text-secundary font-semibold bg-gray' : 'text-gray bg-gray2'} 
-                    text-5xl p-8 h-full  shadow-xl rounded-l-xl`}
+                    text-4xl p-8 h-full  shadow-xl rounded-l-xl`}
                         onClick={() => setTrabajos('Desarrollo web')}
                     >
                         Desarrollo web
                     </button>
                     <button
                         className={`${trabajos === 'Diseño y Renders' ? 'text-secundary font-semibold bg-gray' : 'text-gray bg-gray2'} 
-                    text-5xl p-8 h-full shadow-xl rounded-r-xl`}
+                    text-4xl p-8 h-full shadow-xl rounded-r-xl`}
                         onClick={() => setTrabajos('Diseño y Renders')}
                     >
                         Diseño y Renders
@@ -50,7 +50,7 @@ const Trabajos = () => {
                     <h3 className="blanco sub">{trabajos}</h3>
 
                     {trabajos === 'Desarrollo web' && (
-                        <div className="sm:grid sm:grid-cols-3 xl:grid-cols-4 sm:gap-2 w-full">
+                        <div className="sm:grid sm:grid-cols-3 2xl:grid-cols-4 sm:gap-2 w-full">
                             {proyectosWebs.length > 0 &&
                                 proyectosWebs.map(proyecto => (
                                     <ProyectoWeb
