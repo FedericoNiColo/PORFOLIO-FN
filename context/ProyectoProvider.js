@@ -25,7 +25,7 @@ const ProyectosProvider = ({ children }) => {
         setTimeout(() => {
             setCargando(false)
 
-        }, 100);
+        }, 4000);
 
     }, [])
 
