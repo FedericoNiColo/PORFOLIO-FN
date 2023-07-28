@@ -73,8 +73,9 @@ html {
   color: var(--blanco);
   text-decoration: none;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
+  transition-duration: 0.1s;
 }
 
 .navegacion a:hover {
@@ -773,7 +774,7 @@ html {
     height: 15rem;
   }
 
-  
+
 
   .icono {
     height: 3rem;
@@ -918,16 +919,13 @@ a {
 
 .area {
   background: var(--gris-claro);
-
   width: 100%;
   height: 100vh;
-
-
 }
 
 .circles {
   position: absolute;
-  top: 0;
+  top: 5vh;
   left: 0;
   width: 100%;
   height: 100%;

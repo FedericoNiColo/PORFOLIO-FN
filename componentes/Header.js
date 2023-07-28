@@ -8,9 +8,9 @@ const Header = () => {
             <div className="principal sombra animate__animated animate__zoomIn">
                 <header>
                     <nav className="navegacion">
-                        <a href="#sobre-mi">sobre mí</a>
-                        <a href="#trabajos">trabajos</a>
-                        <a href="#contacto">contacto</a>
+                        <a href="#sobre-mi">Sobre mí</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
                     </nav>
                 </header>
 

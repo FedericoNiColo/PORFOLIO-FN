@@ -81,9 +81,7 @@ const Trabajos = () => {
 
                 <div className='sm:border-l-4 sm:border-secundary xl:max-w-[75%] max-w-[95%] mx-auto'>
 
-                    {/* <h3 className="sm:text-6xl text-5xl font-semibold sm:p-4 text-gray">otros</h3> */}
-
-                    <div className="sm:grid sm:grid-cols-6 sm:gap-2 flex sm:p-4 overflow-x-auto">
+                    <div className="sm:grid sm:grid-cols-6 sm:gap-2 flex sm:p-4 overflow-x-auto h-72">
 
                         {trabajos === 'Desarrollo web' && (
                             proyectosIndustrial.map(proyecto => (

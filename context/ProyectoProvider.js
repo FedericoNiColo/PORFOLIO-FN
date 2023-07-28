@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect, createContext } from "react";
-import axios from "axios";
 import { diseñoindustrial } from "@/ProyectosIndustrial";
 import { webs } from "@/ProyectosWeb";
 import { renders } from "@/Renders";
@@ -26,7 +25,7 @@ const ProyectosProvider = ({ children }) => {
         setTimeout(() => {
             setCargando(false)
 
-        }, 4000);
+        }, 100);
 
     }, [])
 
