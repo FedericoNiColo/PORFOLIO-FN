@@ -18,7 +18,7 @@ const SobreMi = () => {
                         <h2 >sobre mí</h2>
                         <p>Soy un apasionado por la tecnología.
                             <br />
-                            Llevo varios años preparándome en esta área.Actualmente soy Desarrollador Frontend especializado en React y cuento con sólidos conocimientos y herramientas
+                            Llevo varios años preparándome en esta área. Actualmente soy Desarrollador Frontend especializado en React y cuento con sólidos conocimientos y herramientas
                             de diseño ya que tambien soy Diseñador Industrial recibido en la UBA.
                             <br />
                             Soy un profesional altamente motivado, orientado a resultados y siempre en búsqueda de nuevos desafíos.
