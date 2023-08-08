@@ -26,7 +26,7 @@ const SobreMi = () => {
                             resultados.
                         </p>
 
-                        <div className='cv'>
+                        {/* <div className='cv'>
                             <select onChange={e => setCv(e.target.value)}>
 
                                 <option value="">Descargar CV</option>
@@ -37,7 +37,7 @@ const SobreMi = () => {
                             </select>
 
                             {cv.length > 0 && <a href={`${cv}`} className="vermas-cv" target="_blank">Ver</a>}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
