@@ -36,6 +36,11 @@ const diseñoindustrial = [
 
     },
     {
+        imagen: 'tblearportada',
+        portada: "tblear",
+        url: 'www.behance.net/gallery/189003869/Inmovilizador-descartable-para-lesiones'
+    },
+    {
         imagen: 'Equipamiento',
         portada: "Equipamientoportada",
         url: 'www.behance.net/gallery/163961707/Equipamiento-Urbano'
