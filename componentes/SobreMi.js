@@ -18,12 +18,12 @@ const SobreMi = () => {
                         <h2 >sobre mí</h2>
                         <p>Soy un apasionado por la tecnología.
                             <br />
-                            Llevo varios años preparándome en esta área. Actualmente soy Desarrollador Frontend especializado en React y cuento con sólidos conocimientos y herramientas
-                            de diseño ya que tambien soy Diseñador Industrial recibido en la UBA.
+                            Soy un profesional altamente versátil con una sólida formación como Desarrollador Frontend especializado en React y Diseñador Industrial graduado de la UBA. 
+                            Mi carrera se ha caracterizado por adaptarme y destacarme en diversos entornos laborales, demostrando una habilidad para fusionar mis conocimientos técnicos y creativos en áreas diversas.
+
                             <br />
-                            Soy un profesional altamente motivado, orientado a resultados y siempre en búsqueda de nuevos desafíos.
-                            Mi capacidad para aprender rápidamente y adaptarme a entornos cambiantes me ha permitido obtener excelentes
-                            resultados.
+                            Estoy entusiasmado por seguir explorando nuevas oportunidades que me desafíen a aplicar y ampliar mis habilidades técnicas y creativas en diversos ámbitos. 
+                            Mi capacidad para aprender rápidamente y adaptarme a entornos cambiantes me ha permitido sobresalir en cada proyecto y rol que he desempeñado.
                         </p>
 
                         {/* <div className='cv'>
