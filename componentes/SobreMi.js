@@ -17,16 +17,15 @@ const SobreMi = () => {
                     <div className="parrafo-sobremi animate__flipInX">
                         <h2 >sobre mí</h2>
                         <p>¡Hola, soy Federico!
+                        <br />
                             <br />
-                            Apasionado por la tecnología, soy un Desarrollador Frontend especializado en React y Diseñador Industrial graduado de la UBA.
-                             Mi mayor motivación radica en explorar y dominar nuevas tecnologías, siempre dispuesto a ampliar mi área de aplicación y conocimientos para crecer profesionalmente.
+                            Soy un profesional altamente versátil con una sólida formación como Desarrollador Frontend especializado en React y Diseñador Industrial.
+                            Mi carrera se ha caracterizado por adaptarme y destacarme en diversos entornos laborales, demostrando una habilidad excepcional para fusionar mis conocimientos técnicos y creativos en áreas diversas.
                             <br />
-                            Mi compromiso con el aprendizaje continuo me impulsa a abordar desafíos que me permitan expandir mis habilidades y enfrentar proyectos innovadores. 
-                            Con una mentalidad abierta y una pasión por la tecnología, estoy listo para sumergirme en cualquier área relacionada y aprender todo lo necesario para alcanzar mis metas.
+                            <br />
+                            Estoy entusiasmado por seguir explorando nuevas oportunidades que me desafíen a aplicar y ampliar mis habilidades técnicas y creativas en diversos ámbitos.
+                            Mi capacidad para aprender rápidamente y adaptarme a entornos cambiantes me ha permitido sobresalir en cada proyecto y rol que he desempeñado.
                         
-                            <br />
-                            Estoy entusiasmado por seguir explorando oportunidades que me desafíen a crecer y evolucionar en el campo tecnológico. 
-                            Siempre abierto a nuevas experiencias y aprendizajes, estoy seguro de que mi dedicación y mi espíritu de aprendizaje continuo serán activos valiosos en cualquier entorno.
                         </p>
 
                         {/* <div className='cv'>

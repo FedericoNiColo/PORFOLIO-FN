@@ -369,7 +369,7 @@ html {
   }
 
   .foto-personal {
-    width: 20rem;
+    width: 25rem;
   }
 }
 
@@ -397,6 +397,9 @@ html {
     font-size: 2rem;
   }
 
+  .foto-personal {
+    width: 35rem;
+  }
 }
 
 @media (min-width: 1440px) {
